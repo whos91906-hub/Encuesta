@@ -78,146 +78,8 @@
 
       <h3>Preguntas - Modelo VAK</h3>
 
-      <!-- Preguntas fijas -->
-      <div class="question">
-        <p><b>5. Cuando quiero recordar algo...</b></p>
-        <label><input type="radio" name="q1" value="A" required> a) Veo una imagen mental.</label>
-        <label><input type="radio" name="q1" value="B"> b) Lo repito en voz alta o en mi mente.</label>
-        <label><input type="radio" name="q1" value="C"> c) Lo escribo o hago un esquema con mis manos.</label>
-      </div>
-
-      <div class="question">
-        <p><b>6. Prefiero que un maestro...</b></p>
-        <label><input type="radio" name="q2" value="A" required> a) Use presentaciones, gráficos o videos.</label>
-        <label><input type="radio" name="q2" value="B"> b) Explique en detalle con ejemplos verbales.</label>
-        <label><input type="radio" name="q2" value="C"> c) Realice dinámicas o prácticas.</label>
-      </div>
-
-      <div class="question">
-        <p><b>7. Cuando leo un texto, recuerdo mejor...</b></p>
-        <label><input type="radio" name="q3" value="A" required> a) Lo que veo en gráficos o subrayado.</label>
-        <label><input type="radio" name="q3" value="B"> b) Lo que escucho en mi mente mientras leo.</label>
-        <label><input type="radio" name="q3" value="C"> c) Lo que hago con el texto (subrayar, resumir, etc.)</label>
-      </div>
-
-      <div class="question">
-        <p><b>8. En una clase, me resulta más fácil concentrarme si...</b></p>
-        <label><input type="radio" name="q4" value="A" required> a) Hay presentaciones visuales.</label>
-        <label><input type="radio" name="q4" value="B"> b) El docente tiene buena entonación.</label>
-        <label><input type="radio" name="q4" value="C"> c) Puedo participar activamente.</label>
-      </div>
-
-      <div class="question">
-        <p><b>9. Para estudiar, normalmente...</b></p>
-        <label><input type="radio" name="q5" value="A" required> a) Hago mapas mentales o uso colores.</label>
-        <label><input type="radio" name="q5" value="B"> b) Grabo la clase o leo en voz alta.</label>
-        <label><input type="radio" name="q5" value="C"> c) Hago resúmenes o repaso haciendo ejercicios.</label>
-      </div>
-
-      <div class="question">
-        <p><b>10. Me cuesta entender una explicación si...</b></p>
-        <label><input type="radio" name="q6" value="A" required> a) No tiene apoyo visual.</label>
-        <label><input type="radio" name="q6" value="B"> b) No se escucha claramente.</label>
-        <label><input type="radio" name="q6" value="C"> c) No puedo practicarla.</label>
-      </div>
-
-      <div class="question">
-        <p><b>11. Si tengo que dar direcciones a alguien...</b></p>
-        <label><input type="radio" name="q7" value="A" required> a) Le dibujo un mapa.</label>
-        <label><input type="radio" name="q7" value="B"> b) Le explico paso a paso.</label>
-        <label><input type="radio" name="q7" value="C"> c) Lo acompaño o señalo físicamente.</label>
-      </div>
-
-      <div class="question">
-        <p><b>12. En mi tiempo libre prefiero...</b></p>
-        <label><input type="radio" name="q8" value="A" required> a) Ver películas o leer.</label>
-        <label><input type="radio" name="q8" value="B"> b) Escuchar música o podcasts.</label>
-        <label><input type="radio" name="q8" value="C"> c) Hacer deporte o actividades manuales.</label>
-      </div>
-
-      <div class="question">
-        <p><b>13. Cuando conozco a alguien...</b></p>
-        <label><input type="radio" name="q9" value="A" required> a) Recuerdo su rostro.</label>
-        <label><input type="radio" name="q9" value="B"> b) Recuerdo su voz o nombre.</label>
-        <label><input type="radio" name="q9" value="C"> c) Recuerdo el contexto o cómo me hizo sentir.</label>
-      </div>
-
-      <div class="question">
-        <p><b>14. Si aprendo una nueva habilidad...</b></p>
-        <label><input type="radio" name="q10" value="A" required> a) Veo videos o imágenes explicativas.</label>
-        <label><input type="radio" name="q10" value="B"> b) Escucho instrucciones detalladas.</label>
-        <label><input type="radio" name="q10" value="C"> c) La practico directamente.</label>
-      </div>
-
-      <div class="question">
-        <p><b>15. En una exposición me siento más cómodo...</b></p>
-        <label><input type="radio" name="q11" value="A" required> a) Apoyándome con diapositivas.</label>
-        <label><input type="radio" name="q11" value="B"> b) Explicando verbalmente lo que sé.</label>
-        <label><input type="radio" name="q11" value="C"> c) Moviéndome o haciendo demostraciones.</label>
-      </div>
-
-      <div class="question">
-        <p><b>16. Si algo me llama la atención, suele ser...</b></p>
-        <label><input type="radio" name="q12" value="A" required> a) Su apariencia.</label>
-        <label><input type="radio" name="q12" value="B"> b) Su sonido.</label>
-        <label><input type="radio" name="q12" value="C"> c) Su textura o funcionamiento.</label>
-      </div>
-
-      <div class="question">
-        <p><b>17. Me resulta más fácil recordar...</b></p>
-        <label><input type="radio" name="q13" value="A" required> a) Imágenes y colores.</label>
-        <label><input type="radio" name="q13" value="B"> b) Conversaciones o sonidos.</label>
-        <label><input type="radio" name="q13" value="C"> c) Lo que hice en una actividad.</label>
-      </div>
-
-      <div class="question">
-        <p><b>18. Prefiero profesores que...</b></p>
-        <label><input type="radio" name="q14" value="A" required> a) Usan imágenes, diagramas y pizarras.</label>
-        <label><input type="radio" name="q14" value="B"> b) Explican con claridad y buen tono.</label>
-        <label><input type="radio" name="q14" value="C"> c) Hacen talleres y prácticas.</label>
-      </div>
-
-      <div class="question">
-        <p><b>19. Cuando estudio, me ayuda más…</b></p>
-        <label><input type="radio" name="q15" value="A" required> a) Usar esquemas o resúmenes visuales.</label>
-        <label><input type="radio" name="q15" value="B"> b) Escuchar explicaciones.</label>
-        <label><input type="radio" name="q15" value="C"> c) Realizar ejercicios prácticos.</label>
-      </div>
-
-      <div class="question">
-        <p><b>20. Cuando pienso en una palabra nueva...</b></p>
-        <label><input type="radio" name="q16" value="A" required> a) Imagino cómo se escribe.</label>
-        <label><input type="radio" name="q16" value="B"> b) La pronuncio mentalmente.</label>
-        <label><input type="radio" name="q16" value="C"> c) Me imagino usándola en un contexto.</label>
-      </div>
-
-      <div class="question">
-        <p><b>21. Si tengo que elegir un curso en línea prefiero...</b></p>
-        <label><input type="radio" name="q17" value="A" required> a) Que tenga muchos recursos visuales.</label>
-        <label><input type="radio" name="q17" value="B"> b) Que incluya audios o podcasts.</label>
-        <label><input type="radio" name="q17" value="C"> c) Que tenga actividades interactivas.</label>
-      </div>
-
-      <div class="question">
-        <p><b>22. Cuando estoy en clase, suelo...</b></p>
-        <label><input type="radio" name="q18" value="A" required> a) Tomar apuntes con dibujos o colores.</label>
-        <label><input type="radio" name="q18" value="B"> b) Escuchar con atención sin escribir mucho.</label>
-        <label><input type="radio" name="q18" value="C"> c) Participar activamente con preguntas o ejercicios.</label>
-      </div>
-
-      <div class="question">
-        <p><b>23. Al aprender mejoro si...</b></p>
-        <label><input type="radio" name="q19" value="A" required> a) Puedo ver lo que estudio.</label>
-        <label><input type="radio" name="q19" value="B"> b) Escucho explicaciones claras.</label>
-        <label><input type="radio" name="q19" value="C"> c) Lo practico o lo aplico.</label>
-      </div>
-
-      <div class="question">
-        <p><b>24. Prefiero libros que...</b></p>
-        <label><input type="radio" name="q20" value="A" required> a) Tengan ilustraciones o gráficos.</label>
-        <label><input type="radio" name="q20" value="B"> b) Sean narrativos o con diálogos.</label>
-        <label><input type="radio" name="q20" value="C"> c) Tengan actividades al final de cada capítulo.</label>
-      </div>
+      <!-- Preguntas VAK -->
+      <div id="preguntas"></div>
 
       <button type="submit">Ver Resultado</button>
     </form>
@@ -226,6 +88,65 @@
   </div>
 
   <script>
+    // Lista de preguntas
+    const preguntas = [
+      "Cuando quiero recordar algo...",
+      "Prefiero que un maestro...",
+      "Cuando leo un texto, recuerdo mejor...",
+      "En una clase, me resulta más fácil concentrarme si...",
+      "Para estudiar, normalmente...",
+      "Me cuesta entender una explicación si...",
+      "Si tengo que dar direcciones a alguien...",
+      "En mi tiempo libre prefiero...",
+      "Cuando conozco a alguien...",
+      "Si aprendo una nueva habilidad...",
+      "En una exposición me siento más cómodo...",
+      "Si algo me llama la atención, suele ser...",
+      "Me resulta más fácil recordar...",
+      "Prefiero profesores que...",
+      "Cuando estudio, me ayuda más…",
+      "Cuando pienso en una palabra nueva...",
+      "Si tengo que elegir un curso en línea prefiero...",
+      "Cuando estoy en clase, suelo...",
+      "Al aprender mejoro si...",
+      "Prefiero libros que..."
+    ];
+
+    const opciones = [
+      ["a) Veo una imagen mental.", "b) Lo repito en voz alta o en mi mente.", "c) Lo escribo o hago un esquema con mis manos."],
+      ["a) Use presentaciones, gráficos o videos.", "b) Explique en detalle con ejemplos verbales.", "c) Realice dinámicas o prácticas."],
+      ["a) Lo que veo en gráficos o subrayado.", "b) Lo que escucho en mi mente mientras leo.", "c) Lo que hago con el texto (subrayar, resumir, etc.)"],
+      ["a) Hay presentaciones visuales.", "b) El docente tiene buena entonación.", "c) Puedo participar activamente."],
+      ["a) Hago mapas mentales o uso colores.", "b) Grabo la clase o leo en voz alta.", "c) Hago resúmenes o repaso haciendo ejercicios."],
+      ["a) No tiene apoyo visual.", "b) No se escucha claramente.", "c) No puedo practicarla."],
+      ["a) Le dibujo un mapa.", "b) Le explico paso a paso.", "c) Lo acompaño o señalo físicamente."],
+      ["a) Ver películas o leer.", "b) Escuchar música o podcasts.", "c) Hacer deporte o actividades manuales."],
+      ["a) Recuerdo su rostro.", "b) Recuerdo su voz o nombre.", "c) Recuerdo el contexto o cómo me hizo sentir."],
+      ["a) Veo videos o imágenes explicativas.", "b) Escucho instrucciones detalladas.", "c) La practico directamente."],
+      ["a) Apoyándome con diapositivas.", "b) Explicando verbalmente lo que sé.", "c) Moviéndome o haciendo demostraciones."],
+      ["a) Su apariencia.", "b) Su sonido.", "c) Su textura o funcionamiento."],
+      ["a) Imágenes y colores.", "b) Conversaciones o sonidos.", "c) Lo que hice en una actividad."],
+      ["a) Usan imágenes, diagramas y pizarras.", "b) Explican con claridad y buen tono.", "c) Hacen talleres y prácticas."],
+      ["a) Usar esquemas o resúmenes visuales.", "b) Escuchar explicaciones.", "c) Realizar ejercicios prácticos."],
+      ["a) Imagino cómo se escribe.", "b) La pronuncio mentalmente.", "c) Me imagino usándola en un contexto."],
+      ["a) Que tenga muchos recursos visuales.", "b) Que incluya audios o podcasts.", "c) Que tenga actividades interactivas."],
+      ["a) Tomar apuntes con dibujos o colores.", "b) Escuchar con atención sin escribir mucho.", "c) Participar activamente con preguntas o ejercicios."],
+      ["a) Puedo ver lo que estudio.", "b) Escucho explicaciones claras.", "c) Lo practico o lo aplico."],
+      ["a) Tengan ilustraciones o gráficos.", "b) Sean narrativos o con diálogos.", "c) Tengan actividades al final de cada capítulo."]
+    ];
+
+    // Generar preguntas dinámicamente
+    const preguntasDiv = document.getElementById("preguntas");
+    preguntas.forEach((pregunta, i) => {
+      let html = `<div class="question"><p><b>${i+5}. ${pregunta}</b></p>`;
+      html += `<label><input type="radio" name="q${i+1}" value="A" required> ${opciones[i][0]}</label>`;
+      html += `<label><input type="radio" name="q${i+1}" value="B"> ${opciones[i][1]}</label>`;
+      html += `<label><input type="radio" name="q${i+1}" value="C"> ${opciones[i][2]}</label>`;
+      html += `</div>`;
+      preguntasDiv.innerHTML += html;
+    });
+
+    // Procesar resultados
     document.getElementById("encuestaForm").addEventListener("submit", function(e) {
       e.preventDefault();
 
